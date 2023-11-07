@@ -1,0 +1,103 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp",
+			"vector": "cpp",
+			"string": "cpp",
+			"ostream": "cpp",
+			"atomic": "cpp",
+			"bit": "cpp",
+			"*.tcc": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"unordered_map": "cpp",
+			"exception": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp",
+			"iterator": "cpp",
+			"memory": "cpp",
+			"memory_resource": "cpp",
+			"numeric": "cpp",
+			"optional": "cpp",
+			"random": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"fstream": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"typeinfo": "cpp",
+			"bitset": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"iomanip": "cpp",
+			"cinttypes": "cpp"
+		},
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#f09156",
+			"activityBar.activeBorder": "#c4fad9",
+			"activityBar.background": "#f09156",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#c4fad9",
+			"activityBarBadge.foreground": "#15202b",
+			"statusBar.background": "#ec7227",
+			"statusBar.foreground": "#15202b",
+			"statusBarItem.hoverBackground": "#ce5a12",
+			"titleBar.activeBackground": "#ec7227",
+			"titleBar.activeForeground": "#15202b",
+			"titleBar.inactiveBackground": "#ec722799",
+			"titleBar.inactiveForeground": "#15202b99"
+		},
+		"peacock.remoteColor": "#ec7227"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "g++ - Build and debug active file",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "${fileDirname}/${fileBasenameNoExtension}",
+				"args": [],
+				"stopAtEntry": false,
+				"cwd": "${fileDirname}",
+				"environment": [],
+				"externalConsole": false,
+				"MIMode": "gdb",
+				"setupCommands": [
+					{
+						"description": "Enable pretty-printing for gdb",
+						"text": "-enable-pretty-printing",
+						"ignoreFailures": true
+					}
+				],
+				"preLaunchTask": "C/C++: g++ build active file",
+				"miDebuggerPath": "/usr/bin/gdb"
+			}
+		]
+	}
+}

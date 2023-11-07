@@ -1,0 +1,53 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build main",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"main/main.cpp",
+				"src/*.cpp",
+				"src/lib/*.cpp",
+				"-o",
+				"bin/lemur"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "build test",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-g",
+				"tests/main.cpp",
+				"src/*.cpp",
+				"src/lib/*.cpp",
+				"-o",
+				"bin/lemur-test"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}
