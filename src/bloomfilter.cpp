@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * A bloom filter implementation. This is based on this blogpost:
  *     https://findingprotopia.org/posts/how-to-write-a-bloom-filter-cpp/

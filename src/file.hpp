@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * A simple wrapper around a file to simplify reading a writing keys and values.
  */

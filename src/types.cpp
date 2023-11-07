@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * The types used for keys and values in the LSM tree.
  * Functions for converting between types.

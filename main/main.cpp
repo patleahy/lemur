@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * A program to create an key/value store, insert values into it and then
  * search for some of the values. The time take to do the inserts and searches

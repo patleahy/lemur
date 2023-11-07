@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * The key/value store. Keys are integers and values are be strings.
  * The strings will be limited the lenght defined by VAL_LEN in types.h.

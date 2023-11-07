@@ -1,5 +1,5 @@
 /**
- * Pat Leahy patleahy@uw.edu - CSEP 544 SP21 - Mini-project - Lemur
+ * Pat Leahy pat@patleahy.com - CSEP 544 SP21 - Mini-project - Lemur
  *
  * See header file for function level documentation.
  */
@@ -40,7 +40,7 @@ bool binarySearch(KeyValues *kvs, kv_key_t key, kv_val_t &val, int lower, int up
             // left while the key is equal. This will cause us to return the
             // most recent value for this key.
             while ((m > lower) && (key == kvs->Key(m-1))) { m--; }
-  
+
             val = kvs->Val(m);
             return true;
         }
